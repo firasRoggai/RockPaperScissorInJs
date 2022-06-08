@@ -11,6 +11,9 @@
     --secoundary: #4D4C7D;
     --secoundary2:  #363062;
 }
+body {
+background : blue;
+}
 button {
     background-color: lightblue;
 }
