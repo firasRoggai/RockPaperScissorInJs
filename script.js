@@ -36,8 +36,8 @@ possible.forEach(possible => possible.addEventListener('click',(e)=>{
     resultdisp.textContent = getResult();
     playerResult.textContent = playerCounter + " ";
     pcResult.textContent = pcCounter;
-    if(pcCounter == 4){winner.textContent = "الميكرو"}
-    if(playerCounter == 4){winner.textContent="فراس و عدنان"}
+    if(pcCounter == 10){winner.textContent = "pc"}
+    if(playerCounter == 10){winner.textContent="player"}
 }))
 
 function generateComputer(){
